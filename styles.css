@@ -1,9 +1,22 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: yellow;
-    color: black;
 }
 
 a {
     color: black;
 }
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-list li {
+    flex-grow: 1;
+}
+
+li.logo {
+    margin-right: auto;
+  }
